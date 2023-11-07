@@ -6,7 +6,7 @@
     background: url(./img/images\ \(6\).jpg) no-repeat;
     background-size: cover;
     top: 0%;
-    z-index: -1;
+    z-index: -90;
 }
 
 .carousel-1{
@@ -18,7 +18,7 @@
     transition: all 55s ease;
     display: flex;
     flex-direction: column;
-    /* justify-content: center; */
+    justify-content: center;
     align-self: center; 
 }
 
@@ -37,7 +37,7 @@
     background: url(./img/images\ \(7\).jpg) no-repeat;
     background-size: cover;
     top: 0%;
-    z-index: -1;
+    z-index: -90;
 }
 
 .carousel-2{
@@ -49,7 +49,7 @@
     transition: all 55s ease;
     display: flex;
     flex-direction: column;
-    /* justify-content: center; */
+    justify-content: center;
     align-self: center; 
 }
 
@@ -68,7 +68,7 @@
     background: url(./img/images.jpg) no-repeat;
     background-size: cover;
     top: 0%;
-    z-index: -1;
+    z-index: -90;
 }
 
 .carousel-3{
@@ -80,7 +80,7 @@
     transition: all 55s ease;
     display: flex;
     flex-direction: column;
-    /* justify-content: center; */
+    justify-content: center;
     align-self: center; 
 }
 
@@ -99,7 +99,7 @@
     background: url(./img/images\ \(3\).jpg) no-repeat;
     background-size: cover;
     top: 0%;
-    z-index: -1;
+    z-index: -90;
 }
 
 .carousel-4{
@@ -111,7 +111,7 @@
     transition: all 55s ease;
     display: flex;
     flex-direction: column;
-    /* justify-content: center; */
+    justify-content: center;
     align-self: center; 
 }
 
@@ -130,7 +130,7 @@
     background: url(./img/images\ \(1\).jpg) no-repeat;
     background-size: cover;
     top: 0%;
-    z-index: -1;
+    z-index: -90;
 }
 
 .carousel-5{
@@ -142,7 +142,7 @@
     transition: all 55s ease;
     display: flex;
     flex-direction: column;
-    /* justify-content: center; */
+    justify-content: center;
     align-self: center; 
 }
 
@@ -161,7 +161,7 @@
     background: url(./img/images\ \(4\).jpg) no-repeat;
     background-size: cover;
     top: 0%;
-    z-index: -1;
+    z-index: -90;
 }
 
 .carousel-6{
@@ -173,7 +173,7 @@
     transition: all 55s ease;
     display: flex;
     flex-direction: column;
-    /* justify-content: center; */
+    justify-content: center;
     align-self: center; 
 }
 
@@ -192,7 +192,7 @@
     background: url(./img/images\ \(5\).jpg) no-repeat;
     background-size: cover;
     top: 0%;
-    z-index: -1;
+    z-index: -90;
 }
 
 .carousel-7{
@@ -204,8 +204,9 @@
     transition: all 55s ease;
     display: flex;
     flex-direction: column;
-    /* justify-content: center; */
+    justify-content: center;
     align-self: center; 
+    z-index: 10;
 }
 
 .carousel-7 h3, .carousel-7 p{
@@ -223,7 +224,7 @@
     background: url(./img/images\ \(7\).jpg) no-repeat;
     background-size: cover;
     top: 0%;
-    z-index: -1;
+    z-index: -90;
 }
 
 .carousel-8{
@@ -235,7 +236,7 @@
     transition: all 55s ease;
     display: flex;
     flex-direction: column;
-    /* justify-content: center; */
+    justify-content: center;
     align-self: center; 
 }
 

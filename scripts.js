@@ -72,12 +72,12 @@ dao.addEventListener('click', () => {
 
 next.addEventListener("click", () => {
     scroll.style.scrollBehaviour = "smooth";
-    scroll.scrollLeft += 1140;
+    scroll.scrollLeft += 330;
 });
 
 back.addEventListener("click", () => {
     scroll.style.scrollBehaviour = "smooth";
-    scroll.scrollLeft -= 1140;
+    scroll.scrollLeft -= 450;
 });
 
 window.addEventListener('scroll', function(){

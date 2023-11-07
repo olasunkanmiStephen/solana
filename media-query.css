@@ -1,4 +1,3 @@
-
 @media (max-width: 960px){
 
     .network-inner .container,
@@ -23,20 +22,6 @@
     gap: 20px;
 }
 
-    .backdrop{
-        position: absolute;
-        z-index: -1;
-         left: 79.5%;
-        width: 10.9em;
-        height: 38em; 
-    }
-    
-    .backdrp{
-        position: absolute;
-        z-index: -1;
-        width: 26.7%;
-    }
-
     .ads{
         text-align: center;
     }
@@ -46,12 +31,31 @@
         padding: 18px 30px;
         align-items: center;
         background: var(--bs-body-bg);
+        width: 100%;
         display: block;
+        z-index: 1000;
+    }
+
+    .toggle li{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .container-1 nav::-webkit-scrollbar{
+        display: none;
+    }
+
+    .container-1 nav{
+        overflow-y: scroll;
+    }
+
+    .container-1 nav ul{
+        height: 100vh;
     }
 
     .toggle{
-        padding: 40px;
-        border-bottom: 1px solid rgb(33, 32, 32);
+        padding: 20px;
+        border-bottom: 1px solid rgb(26, 25, 25);
     }
 
     .visble{
@@ -89,26 +93,15 @@
         display: none;
     }
 
-    .flow{
+    /* .flow{
         gap: 470px;
-    }
+    } */
 
     .ror{
         display: flex;
         gap: 0px;
         padding-right: 0%;
         padding-left: 0px;
-    }
-
-    .ror .row{
-        text-align: center;
-        width: 45em;
-        font-size: 15px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        /* justify-content: center; */
-        gap: 4px;
     }
 
     .fo{
@@ -215,37 +208,8 @@
     
 }
 
-@media (max-width: 760px){
 
-    
-    .backdrop{
-        position: absolute;
-        z-index: -1;
-         left: 80.6%;
-        width: 7.9em;
-        height: 28em; 
-    }
-    
-    .backdrp{
-        position: absolute;
-        z-index: -1;
-        width: 26.7%;
-    }
-
-    .ror .row{
-        text-align: center;
-        width: 22em;
-        font-size: 15px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        gap: 4px;
-    }
-
-    .flow{
-        gap: 600px;
-    } 
+@media (max-width: 760px){ 
 
     .footer .container{
         display: flex;
@@ -270,128 +234,19 @@
         width: fit-content;
         height: fit-content;
     }
-/* 
-    .br p{
-        position: absolute;
-        width: fit-content;
-        left: 0%;
-        bottom: -11%;
-        background-color: aqua;
-    } */
 }
 
-@media (max-width: 680px){
+@media (max-width: 544px){
 
-    
-    .backdrop{
-        position: absolute;
-        z-index: -1;
-         left: 9.5%;
-        width: 10.9em;
-        height: 38em; 
+    .co{
+        gap: 10px;
+        padding: 10px;
+        
     }
-    
-    .backdrp{
-        position: absolute;
-        z-index: -1;
-        width: 26.7%;
-    }
-
-    .ror .row{
-        text-align: center;
-        width: 32em;
-        font-size: 15px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        gap: 4px;
-    }
-
-    .backdrop{
-        position: absolute;
-        z-index: -1;
-         left: 70.8%;
-        width: 5.9em;
-        height: 28em; 
-    }
-    
-    .backdrp{
-        position: absolute;
-        z-index: -1;
-        width: 16.7%;
-    }
-
-    .flow{
-        gap: 655px;
-    } 
 }
 
-@media (max-width: 616px){
-
-      
-    .backdrop{
-        position: absolute;
-        z-index: -1;
-         left: 78%;
-        width: 7.9em;
-        height: 28em; 
-    }
-    
-    .backdrp{
-        position: absolute;
-        z-index: -1;
-        width: 50.7%;
-        height: 30%;
-    }
-
-    .ror .row{
-        text-align: center;
-        width: 28em;
-        font-size: 15px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        gap: 4px;
-    }
-
-    .flow{
-        gap: 720px;
-    } 
-}
 
 @media (max-width: 450px){
-
-      
-    .backdrop{
-        position: absolute;
-        z-index: -1;
-         left: 67.9%;
-        width: 7.9em;
-        height: 24em; 
-    }
-    
-    .backdrp{
-        position: absolute;
-        z-index: -1;
-        width: 26.7%;
-    }
-
-    .ror .row{
-        text-align: center;
-        width: 17.9em;
-        font-size: 15px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        gap: 4px;
-    }
-
-    .flow{
-        gap: 875px;
-    } 
 
     .SP{
         display: flex;
@@ -421,7 +276,7 @@
     }
 
     .pay img{
-        height: 100%;
+        height: fit-content;
         width: 100%;
         border-bottom-left-radius: 0%;
         border-top-right-radius: 20px;
@@ -437,3 +292,31 @@
     }
 }
 
+
+
+@media (max-width:280px) {
+          
+
+    .intro h1{
+        font-size: 30px;
+        font-weight: 800;
+        line-height: 1.1;
+        margin-bottom: 60px;
+    }
+
+    .count{
+        font-size: 60px;
+        font-weight: 350;
+        line-height: 1.2;
+    }
+
+    .growth-built{
+        margin-top: 60%;
+        margin-bottom: 55%;
+    }
+
+    .case-1{
+        margin-bottom: 17%;
+    }
+
+}
