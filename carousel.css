@@ -19,7 +19,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-self: center; 
+    align-items: center; 
 }
 
 .carousel-1 h3, .carousel-1 p{
@@ -50,7 +50,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-self: center; 
+    align-items: center; 
 }
 
 .carousel-2 h3, .carousel-2 p{
@@ -81,7 +81,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-self: center; 
+    align-items: center; 
 }
 
 .carousel-3 h3, .carousel-3 p{
@@ -112,7 +112,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-self: center; 
+    align-items: center; 
 }
 
 .carousel-4 h3, .carousel-4 p{
@@ -150,7 +150,7 @@
     display: none;
 }
 
-.carousel-5hover p,.carousel-5:hover h3{
+.carousel-5:hover p,.carousel-5:hover h3{
     display: flex;
 }
 .carousel-6::after{
